@@ -1,0 +1,36 @@
+{
+    "name": "liquid-glass",
+    "version": "1.0.0",
+    "description": "A lightweight Apple-style glassmorphism CSS framework for beautiful, frosted-glass UI design.",
+    "main": "dist/liquid-glass.css",
+    "scripts": {
+      "build": "npx postcss src/liquid-glass.css -o dist/liquid-glass.css --use autoprefixer && npx cssnano dist/liquid-glass.css dist/liquid-glass.min.css",
+      "start": "live-server demo"
+    },
+    "keywords": [
+      "glassmorphism",
+      "css-framework",
+      "ui",
+      "design-system",
+      "apple-style",
+      "frosted-glass",
+      "liquid-glass"
+    ],
+    "author": "Oliver Kent Santos <javascript.2025.course@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/javascript2025course-Oliver/liquid-glass"
+    },
+    "bugs": {
+      "url": "https://github.com/javascript2025course-Oliver/liquid-glass/issues"
+    },
+    "homepage": "https://javascript2025course-Oliver.github.io/liquid-glass/",
+    "devDependencies": {
+      "autoprefixer": "^10.4.2",
+      "cssnano": "^5.0.17",
+      "postcss-cli": "^9.1.0",
+      "live-server": "^1.2.2"
+    }
+}
+  
